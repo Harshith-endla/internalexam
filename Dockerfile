@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the application port
-EXPOSE 3000
+EXPOSE 3005
 
 # Start the app
 CMD ["node", "calculator.js"]
